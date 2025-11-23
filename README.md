@@ -138,4 +138,4 @@ The Lambda execution role is configured with minimal but sufficient permissions:
 
 ![S3 bucket with stored JSON log files](img/s3-saves-files-with-data.png) – example of a stored log file in the `logs-22321` bucket.
 
-![S3 bucket with stored JSON log files](img/content-of-s3-bucket.png) – content of the `logs-22321` bucket file.
+![S3 bucket with stored JSON log files](img/content-of-s3-bucket.png) – contents the `logs-22321` bucket file.
