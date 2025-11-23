@@ -137,3 +137,5 @@ The Lambda execution role is configured with minimal but sufficient permissions:
 ![UI showing captured credentials](img/result-of-password-stolen-in-ui.png) – example of a stolen credentials payload rendered in the demo UI.
 
 ![S3 bucket with stored JSON log files](img/s3-saves-files-with-data.png) – example of a stored log file in the `logs-22321` bucket.
+
+![S3 bucket with stored JSON log files](img/content-of-s3-bucket.png) – content of the `logs-22321` bucket file.
