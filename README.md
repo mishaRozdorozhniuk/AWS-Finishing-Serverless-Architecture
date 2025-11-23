@@ -1,12 +1,17 @@
 # 🎣 Fishing Serverless Architecture
 
+I am a Full‑Stack engineer with 5+ years of experience, and this project was born from a desire to go beyond classic CRUD apps and deepen my skills in **DevOps** and **Security** on top of **AWS infrastructure**. Phishing remains one of the most common real‑world attack vectors, and many people fall for it daily without even realizing it. In this lab, I intentionally recreate a realistic phishing scenario and implement a **serverless logging pipeline** that captures credentials and related metadata, demonstrating how such an attack can work from the infrastructure side while keeping the entire setup in a controlled, educational environment.
+
+
 Pixel-perfect Instagram login clone that sends credentials to a **serverless log collector** on AWS (**API Gateway → Lambda → S3**).
 
 Main goal: show a minimal, production‑style pipeline that accepts a JSON payload from the browser, passes it through API Gateway with **Lambda Proxy Integration**, processes it in a Node.js 22.x Lambda, and stores it as JSON in S3.
 
+Here is real instagram login page
+
 ![Instagram login clone](img/clone-instagram.png)
 
-The login clone UI was handcrafted by the author as a Full‑Stack engineer to serve as a realistic frontend for this serverless lab.
+Haha no, its fake instagram login page build by me))
 
 ## Project Structure
 
@@ -139,3 +144,10 @@ The Lambda execution role is configured with minimal but sufficient permissions:
 ![S3 bucket with stored JSON log files](img/s3-saves-files-with-data.png) – example of a stored log file in the `logs-22321` bucket.
 
 ![S3 bucket with stored JSON log files](img/content-of-s3.png) – contents the `logs-22321` bucket file.
+
+---
+
+## Conclusion
+
+This project is not about stealing passwords; it is about understanding how a modern phishing pipeline can be built on top of **AWS serverless services** and how easily a realistic‑looking frontend can be wired into a powerful logging backend. By walking through the full flow – from the Instagram‑style login page to API Gateway, Lambda, and S3 – I strengthened my skills in **cloud infrastructure**, **observability**, **permissions/IAM**, and **secure request handling**.
+
